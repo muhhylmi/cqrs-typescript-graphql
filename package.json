@@ -1,0 +1,32 @@
+{
+  "name": "cqrs-graphql-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc:dev": "tsc && nodemon ./dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/amqplib": "^0.10.4",
+    "@types/express": "^4.17.21",
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^20.11.13",
+    "nodemon": "^3.0.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@elastic/elasticsearch": "^7.17.13",
+    "@graphql-tools/schema": "^10.0.2",
+    "amqplib": "^0.10.3",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^16.8.1",
+    "graphql-tools": "^9.0.0",
+    "mongoose": "^7.6.3"
+  }
+}
